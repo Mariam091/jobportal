@@ -1,0 +1,197 @@
+
+body {
+    background: #a6a6a6;
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+}
+
+
+.container {
+    width: 21cm;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.middle-panel {
+    background: #cccccc;
+    width: 23cm;
+    padding: 0.7cm;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for visual separation */
+}
+
+.leftPanel {
+    width: 27%;
+    background-color: #484444;
+    padding: 0.7cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightPanel {
+    width: 73%;
+    padding: 0.7cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leftPanel,
+.rightPanel {
+    position: relative;
+}
+
+
+.item {
+    padding-bottom: 0.7cm;
+    padding-top: 0.7cm;
+}
+
+.item h2 {
+    margin-top: 0;
+}
+
+.bottomLineSeparator {
+    border-bottom: 0.05cm solid white;
+}
+
+h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.leftPanel h2 {
+    color: white;
+}
+
+img {
+    width: 4cm;
+    height: 4cm;
+    margin-bottom: 0.7cm;
+    border-radius: 50%;
+    border: 0.15cm solid white;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.3em;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="name"],
+input[type="aboutme"],
+textarea {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+.personal-info,
+.about-section,
+.workExperience {
+    width: 100%;
+    max-width: 500px; /* Adjust max-width as needed */
+    margin-top: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 60%;
+    margin-top: 260px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.icon-label {
+    display: flex;
+    align-items: center;
+}
+
+.icon-label i {
+    margin-right: 0.5em;
+}
+
+.fa {
+    font-size: 18px;
+    color: white;
+}
+.personal-info {
+    color: #fff;
+    margin-bottom: 2em;
+    margin-right: -65%;
+    margin-top: -138%;
+
+}
+.about-section {
+    width: 100%;
+    max-width: 500px;
+    margin-right: -65%;
+    color: #fff;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.workExperience {
+    width: 100%;
+    max-width: 500px; /* Adjust max-width as needed */
+    margin-top: 2em;
+    margin-right: -70%;
+    color: #fff;
+    text-align: center;
+}
+
+.workExperience > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.workExperience > ul > li {
+    margin: 0;
+    padding-bottom: 1em; /* Adjust spacing between list items */
+}
+
+.jobPosition,
+.jobDates,
+.projectName {
+    margin-bottom: 1em; /* Adjust spacing between input fields */
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em; /* Adjust spacing between labels and input fields */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure input width includes padding and border */
+}
+
+
+

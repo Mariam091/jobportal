@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My CV</title>
+    <link rel="stylesheet" href="mycv.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="background">
+    <!-- Background content here -->
+</div>
+
+<div class="container">
+    <div class="middle-panel">
+    <div class="leftPanel">
+        <img src="./images/avatar.jpeg">
+        <div class="details">
+            <div class="item bottomLineSeparator">
+                <h2>CONTACT</h2>
+                 <div class="icon-label">
+                    <i class="fa fa-phone"></i>
+                    <label for="phone">Phone:</label>
+                </div>
+                <input type="text" id="phone" name="phone" placeholder="Enter your phone">
+                <div class="icon-label">
+                    <i class="fa fa-envelope"></i>
+                    <label for="email">Email:</label>
+                </div>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <div class="icon-label">
+                    <i class="fa fa-map-marker"></i>
+                    <label for="address">Address:</label>
+                </div>
+                <input type="text" id="address" name="address" placeholder="Enter your address">
+            </div>
+            <div class="item bottomLineSeparator">
+                <h2>SKILLS</h2>
+                <div class="icon-label">
+                    <i class="fa fa-cogs"></i>
+                    <label for="skills">Skills:</label>
+                </div>
+                <textarea id="skills" name="skills" placeholder="Enter your skills"></textarea>
+            </div>
+            <div class="item">
+                <h2>EDUCATION</h2>
+                <div class="icon-label">
+                   <i class="fa fa-graduation-cap"></i>
+                    <label for="education">Education:</label>
+                </div>
+                <textarea id="education" name="education" placeholder="Enter your education"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="rightPanel">
+        <div class="personal-info">
+            <h1>Full Name</h1>
+            <label for="name"></label>
+            <textarea type="text" id="name" name="name" placeholder="Enter your Full Name"></textarea>
+        </div>
+
+    <div class="about-section">
+        <h2>About me</h2>
+        <div class="smallText">
+            <label for="aboutme"></label>
+            <textarea type="text" id="aboutme" name="aboutme" placeholder="About me"></textarea>
+        </div>
+  </div>
+
+    <div class="workExperience">
+  <h2>Work Experience</h2>
+  <ul>
+       <li>
+            <div class="jobPosition">
+                <label for="jobTitle1">Job Title:</label>
+                <input type="text" id="jobTitle1" name="jobTitle1" placeholder="Enter job title">
+            </div>
+            <div class="jobDates">
+                <label for="jobDates1">Dates Employed:</label>
+                <input type="text" id="jobDates1" name="jobDates1" placeholder="Enter dates employed">
+            </div>
+            <div class="projectName">
+                <label for="projectName1">Project Name | Company Name:</label>
+                <input type="text" id="projectName1" name="projectName1" placeholder="Enter project name | company name">
+            </div>
+        </li>
+  </ul>
+        <button id="save">Submit</button>
+</div>
+    </div>
+    <div class="rightPanel">
+        <page size="A4"></page>
+        <page size="A4"></page>
+    </div>
+</div>
+    </div>
+<script src="mycv.js"></script>
+</body>
+</html>
